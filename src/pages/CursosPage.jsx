@@ -3,11 +3,13 @@ import { HeaderBgImg } from "../componets/Header/headerBgImg";
 import { TemasLista } from "../componets/ListaCursos/TemasLista/TemasLista";
 import { dificultades } from "../data/dificultades";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
+import { HeaderMain } from "../componets/Header/headerMain";
 import Footer from "../componets/Footer/Footer";
+
 function CursoPage() {
   return (
     <>
-      <header className="relative h-[100vh]  overflow-hidden text-center text-white ">
+      <HeaderMain>
         <Navbar />
         <HeaderBgImg
           src={"/src/assets/fondoCursos.webp"}
@@ -15,7 +17,7 @@ function CursoPage() {
           style={"brightness-75"}
         />
           <ImgBannerUI/>
-      </header>
+      </HeaderMain>
       
        <main className="min-h-screen">
         {

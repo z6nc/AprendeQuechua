@@ -1,10 +1,10 @@
-import { TituloUI } from "../../ui/tituloUI";
+import { SubTitle } from "../../ui/SubtitleUI";
 
 export function InfoAbout({ abouts }) {
   return (
     <div className={`flex   flex-wrap justify-center items-center max-w-5xl mx-auto gap-x-4 ${abouts.estilo}`}>
       <div className=" lg:w-xl text-center lg:text-start flex flex-col space-y-4 pt-7 px-3.5 lg:px-0  lg:pt-0">
-        <TituloUI titulo={abouts.titulo} style={"text-orange-400 lg:text-5xl "} />
+        <SubTitle titulo={abouts.titulo} style={"text-orange-400 lg:text-5xl "} />
         <p >
           {abouts.contenido}
         </p>

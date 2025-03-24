@@ -1,18 +1,10 @@
 import { BtnUI } from "../../ui/btnUI";
 export function HeaderPrImg() {
- 
   return (
     <>
-        <article className=" h-[70vh] mx-auto text-white flex flex-col justify-center items-center text-center ">
-          <h2 className="text-6xl  2xl:text-7xl font-Titulo font-black ">
-            Aprende Quechua
-          </h2>
-          <p className=" w-72 lg:w-[600px] py-4  text-base lg:text-lg -tracking-tight  ">
-            Descubre la riqueza del Perú y aprende quechua de forma sencilla e
-            interactiva, preservando su legado para el futuro.
-          </p>
+        <article className="  flex flex-col justify-center items-center text-center mx-auto gap-y-2">
+          <h1 className="text-4xl md:text-4xl  2xl:text-6xl font-Titulo font-black  py-4  px-4 border border-white backdrop-blur-xl">APRENDER QUECHUA </h1>
           <BtnUI url="/CursoPage" style=" my-4 py-4 px-9 lg:px-20 text-base lg:text-lg shadow-4xl rounded-lg" />
-
         </article>
     </>
   );

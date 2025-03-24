@@ -37,9 +37,9 @@ function Frases() {
         </button>
       </div>
       <div className="flex flex-1 relative  items-center  max-w-4xl mx-auto px-4 lg:px-0">
-        <h1 className=" text-white font-black text-3xl lg:text-5xl">
+        <h3 className=" text-white font-black text-3xl lg:text-5xl">
           {frases}
-        </h1>
+        </h3>
       </div>
       
       

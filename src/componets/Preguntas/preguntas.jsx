@@ -1,4 +1,4 @@
-import { TituloUI } from "../../ui/tituloUI";
+import { SubTitle } from "../../ui/SubtitleUI";
 import { PreguntasFrecuentes } from "../../data/preguntas";
 import { IconArrowDown } from "../../ui/IconArrow";
 import { DivisiorOla } from "../../ui/DivisorOla";
@@ -18,11 +18,13 @@ export function PreguntasFaqs() {
   return (
     //  verificar en mobile como se ve el padding
     <article className=" relative  lg:h-screen flex flex-col justify-center items-center   ">
-      
-       <DivisiorOla />
+      <DivisiorOla style={"rotate-180 top-0"} />
 
       <div className="flex flex-col px-4 lg:px-0     py-24  lg:max-w-2xl  mx-auto gap-y-5 ">
-        <TituloUI titulo="Preguntas Frecuentes" style={"text-orange-400 lg:text-5xl text-center  "} />
+        <SubTitle
+          titulo="Preguntas Frecuentes"
+          style={"text-orange-400 lg:text-5xl text-center  "}
+        />
         {PreguntasFrecuentes.map((pregunta, index) => {
           return (
             <div
@@ -44,7 +46,9 @@ export function PreguntasFaqs() {
               </button>
               {mostrarRespuesta === index && (
                 <div className="px-2 py-4    ">
-                  <p className="text-gray-500 text-wrap">{pregunta.Respuestas}</p>
+                  <p className="text-gray-500 text-wrap">
+                    {pregunta.Respuestas}
+                  </p>
                 </div>
               )}
             </div>

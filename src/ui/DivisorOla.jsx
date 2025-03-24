@@ -1,11 +1,25 @@
-export function DivisiorOla() {
+export function DivisiorOla({style}) {
   return (
-    <div className="w-full  rotate-180 absolute -z-30 top-0">
+    <div className={`w-full absolute -z-30 ${style} `}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ff6900"
           fillOpacity="1"
           d="M0,128L48,160C96,192,192,256,288,261.3C384,267,480,213,576,202.7C672,192,768,224,864,202.7C960,181,1056,107,1152,80C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+  );
+}
+
+export function FooterOlas() {
+  return (
+    <div className="absolute  w-full -z-10  bottom-0  ">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ff6900"
+          fillOpacity="1"
+          d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,224C672,267,768,277,864,240C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </div>
