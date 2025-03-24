@@ -8,6 +8,7 @@ export const dificultades = [
             classImg  :"right-0"
         }
     },
+    
     {
         id : "intermedio",
         titulo : "Aprendiendo más",
@@ -16,9 +17,8 @@ export const dificultades = [
         style :{
             classImg  :"left-0 scale-x-[-1]"
         }
-
-
     },
+
     {
         id : "avanzado",
         titulo : "Dominando el idioma",
@@ -27,8 +27,6 @@ export const dificultades = [
         style :{
             classImg  :"right-0 scale-x-[-1]"
         }
-
-
     }
 ]
 
