@@ -28,12 +28,12 @@ function Footer() {
       </div>
 
       <ImagenFlotante
-        src={"/src/assets/SolFiguraDos.png"}
+        src={"https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/SolFiguraDos_mr5uc2.webp"}
         clase={`${visibleAnimationX} right-0`}
         alt={"imagen de un sol"}
       />
       <ImagenFlotante
-        src={"/src/assets/condorAndinoDos.png"}
+        src={"https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/condorAndinoDos_grr0jl.webp"}
         clase={`${visibleAnimationAve} left-0 top-0`}
         alt={"imagen de un condor andino"}
       />
@@ -42,7 +42,7 @@ function Footer() {
         <div className={`${visibleAnimationY}    delay-500  z-10 `}>
           <img
             className="w-50 md:w-64 lg:w-72 "
-            src="/src/assets/ZorroDos.png"
+            src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/ZorroDos_tyrh0w.webp"
             alt="imagen de un zorro señalando la parte de arriba"
           />
         </div>

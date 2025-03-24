@@ -12,7 +12,7 @@ export function ImgBannerUI({children}) {
        {children}
       <img
         className={`${visibleAnimationY} md:w-xs lg:w-lg`}
-        src="/src/assets/llama3.png"
+        src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/llama3_ydjpzh.webp"
         alt="Una llama con lentes animada"
       />
     </div>

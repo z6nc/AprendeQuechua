@@ -2,7 +2,7 @@ import { SubTitle } from "../../ui/SubtitleUI";
 
 export function InfoAbout({ abouts }) {
   return (
-    <div className={`flex   flex-wrap justify-center items-center max-w-5xl mx-auto gap-x-4 ${abouts.estilo}`}>
+    <div className={`flex flex-wrap justify-center items-center max-w-5xl mx-auto gap-x-4 ${abouts.estilo}`}>
       <div className=" lg:w-xl text-center lg:text-start flex flex-col space-y-4 pt-7 px-3.5 lg:px-0  lg:pt-0">
         <SubTitle titulo={abouts.titulo} style={"text-orange-400 lg:text-5xl "} />
         <p >
@@ -12,8 +12,8 @@ export function InfoAbout({ abouts }) {
           <p className="font-bold pr-7  "> ¡Únete y aprende con nosotros!</p>
           <img
             className="w-auto -z-20  absolute  right-0 top-5"
-            src="/src/assets/subrayados.png"
-            alt=""
+            src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/subrayados_ycqsik.webp"
+            alt="imagen de un subrayado "
           />
         </div>
       </div>

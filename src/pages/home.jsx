@@ -14,7 +14,7 @@ function Home() {
       <HeaderMain>
         <Navbar />
         <HeaderBgImg
-          src={"/src/assets/FondoSierra.webp"}
+          src={"https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/FondoSierra_po2q8n.webp"}
           alt={"Imagen referente a la sierra del Perú"}
           style={"brightness-50"}
         />

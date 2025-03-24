@@ -2,7 +2,7 @@ export const dificultades = [
     {
         id : "basico",
         titulo : "Primeros Pasos",
-        animalReferente : "/src/assets/condorVolandoDos.png",
+        animalReferente : "https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/condorVolandoDos_kmu596.webp",
         alt : "un condor andino volando ",
         style :{
             classImg  :"right-0"
@@ -12,7 +12,7 @@ export const dificultades = [
     {
         id : "intermedio",
         titulo : "Aprendiendo más",
-        animalReferente:"/src/assets/condorVolandoDos.png",
+        animalReferente:"https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/condorVolandoDos_kmu596.webp",
         alt : "un condor andino volando",
         style :{
             classImg  :"left-0 scale-x-[-1]"
@@ -22,7 +22,7 @@ export const dificultades = [
     {
         id : "avanzado",
         titulo : "Dominando el idioma",
-        animalReferente:"/src/assets/LLamasCaminados.webp",
+        animalReferente:"https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/LLamasCaminados_rpgic8.webp",
         alt : "una llama caminando ",
         style :{
             classImg  :"right-0 scale-x-[-1]"

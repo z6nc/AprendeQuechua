@@ -12,7 +12,7 @@ function CursoPage() {
       <HeaderMain>
         <Navbar />
         <HeaderBgImg
-          src={"/src/assets/fondoCursos.webp"}
+          src={"https://res.cloudinary.com/dleem7osr/image/upload/v1742836459/fondoCursos_j43nht.webp"}
           alt={"Imagen referente a la sierra del Perú"}
           style={"brightness-75"}
         />
