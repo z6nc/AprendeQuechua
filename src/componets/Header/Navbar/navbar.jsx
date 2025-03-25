@@ -1,7 +1,7 @@
 import { HamburIcon, CloseIcon } from "../../../ui/iconNavbar";
-import { GithubUI } from "../../../ui/githubUI";
 import { useState } from "react";
 import { navbarLinks } from "../../../data/navbarLinks";
+import { NavResponsive } from "./navbarResponsive";
 
 
 export function Navbar() {
@@ -40,24 +40,7 @@ export function Navbar() {
            }
         </ul>
 
-        {showMenu && (
-          <div className=" absolute w-full  h-screen  noScroll  top-20  z-40  px-4 py-5 bg-black/10  backdrop-blur-2xl  ">
-            <ul className="relative puntero-triangulo  flex flex-col gap-y-4 py-6 px-4   tracking-wide bg-orange-500  border-b border-l border-white rounded-lg">
-              <li>
-                <a href="/">Inicio</a>{" "}
-              </li>
-              <li>
-                <a href="/cursoPage">Comenzar</a>
-              </li>
-              <li>
-                <a href="">Traductor</a>
-              </li>
-              <li>
-                <GithubUI />
-              </li>
-            </ul>
-          </div>
-        )}
+        {showMenu && <NavResponsive/>}
       </nav>
     </>
   );
