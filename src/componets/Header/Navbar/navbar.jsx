@@ -12,7 +12,7 @@ export function Navbar() {
   };
   return (
     <>
-      <nav className="flex relative  items-center  justify-between lg:p-8 py-6 text-white  bg-orange-500  lg:bg-transparent ">
+      <nav className="flex relative  items-center  justify-between lg:p-8 py-6   bg-orange-500  lg:bg-transparent border-b border-gray-50/10   hover:backdrop-blur-lg transition-all duration-100 ease-linear ">
         <div className="px-4">
           <h1 className="font-black text-2xl lg:text-3xl drop-shadow-Titulo">
             Rimayninchik
