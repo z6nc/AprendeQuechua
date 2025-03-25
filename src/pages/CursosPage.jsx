@@ -4,6 +4,7 @@ import { TemasLista } from "../componets/ListaCursos/TemasLista/TemasLista";
 import { dificultades } from "../data/dificultades";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
 import { HeaderMain } from "../componets/Header/headerMain";
+import { TitleUI } from "../ui/titleUI";
 import Footer from "../componets/Footer/Footer";
 
 function CursoPage() {
@@ -16,7 +17,9 @@ function CursoPage() {
           alt={"Imagen referente a la sierra del Perú"}
           style={"brightness-75"}
         />
-          <ImgBannerUI/>
+        <ImgBannerUI>
+        <TitleUI title={"Comenzemos  "}/>
+        </ImgBannerUI>
       </HeaderMain>
       
        <main className="min-h-screen">
