@@ -16,7 +16,7 @@ export const navbarLinks = [
   {
     id: 3,
     item: "Historia",
-    link: "/",
+    link: "/HistoriaLenguaje",
     class :"customNavbarBtn"
 
   },
