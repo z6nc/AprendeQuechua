@@ -8,17 +8,17 @@ export const navbarLinks = [
   },
   {
     id: 2,
-    item: "Comenzar",
-    link: "/CursoPage",
-    class :"customNavbarBtn"
-    
-  },
-  {
-    id: 3,
     item: "Historia",
     link: "/HistoriaLenguaje",
     class :"customNavbarBtn"
 
+  },
+  {
+    id: 3,
+    item: "Comenzar",
+    link: "/CursoPage",
+    class :"customNavbarBtn"
+    
   },
   {
     id: 4,
