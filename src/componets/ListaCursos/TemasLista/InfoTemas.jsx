@@ -44,7 +44,9 @@ export function InfoTemas({ Tema }) {
                 </div>
                 <BtnUI
                   url={t.url}
-                  style=" text-sm py-2 px-4  text-white shadow-4xl "
+                  style=" text-sm py-2 px-4  shadow-4xl "
+                  texto={"Aprende ahora"}
+                  textoTraducido={"kunan yachay"}
                 />
               </div>
             );

@@ -11,6 +11,7 @@ export function InfoAbout({ abouts }) {
         <div className="relative mx-auto ">
           <p className="font-bold pr-7  "> ¡Únete y aprende con nosotros!</p>
           <img
+            loading="lazy"
             className="w-auto -z-20  absolute  right-0 top-5"
             src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/subrayados_ycqsik.webp"
             alt="imagen de un subrayado "
@@ -20,6 +21,7 @@ export function InfoAbout({ abouts }) {
 
       <div className=" w-80 lg:w-80 h-auto  rounded-full overflow-hidden">
         <img
+          loading="lazy"
           className="w-full  h-full object-center object-cover "
           src={abouts.imgAbout}
           alt={abouts.alt}
