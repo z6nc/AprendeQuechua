@@ -5,7 +5,7 @@ import { TitleUI } from "../ui/titleUI";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
 import { TimeLine } from "../componets/Historia/TimeLine";
 import { HistoriaArticle } from "../componets/Historia/HistoriaArticle";
-import Footer from "../componets/Footer/Footer";
+import { Footer } from "../componets/Footer/Footer";
 export default function HistoriaLenguaje() {
   return (
     <>
@@ -23,11 +23,11 @@ export default function HistoriaLenguaje() {
         </ImgBannerUI>
       </HeaderMain>
 
-      <main className="min-h-screen  py-4">
+      <main className="min-h-screen   py-4 mx-4 lg:mx-0">
         <HistoriaArticle/>
         <TimeLine/>
       </main>
-      <Footer />
+      <Footer/>
     </>
   );
 }

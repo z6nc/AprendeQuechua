@@ -1,6 +1,6 @@
 export function HistoriaArticle() {
   return (
-    <article className="lg:max-w-3xl mx-auto flex flex-col space-y-2 m-5 text-gray-500  p-5 rounded-lg border border-gray-200 hover:shadow-lg">
+    <article className="lg:max-w-4xl mx-auto flex flex-col space-y-2 my-5 text-gray-500  border border-gray-300 p-6 rounded-lg  bg-gray-200/20 ">
       <p>
         ​El quechua, conocido como runasimi, es una de las lenguas indígenas más
         importantes de los Andes y ha desempeñado un papel crucial en la

@@ -3,12 +3,12 @@ import { SubTitle } from "../../ui/SubtitleUI";
 import { BtnUI } from "../../ui/btnUI";
 export function TimeLine() {
   return (
-    <section className="flex flex-col justify-center  gap-12 lg:gap-20">
+    <section className="flex flex-col justify-center  gap-12 lg:gap-20 ">
       {historias.map((historia) => {
         return (
           <article
             key={historia.id}
-            className={`flex flex-wrap justify-center items-center max-w-5xl mx-auto gap-x-4 ${historia.estilos.estiloContainer}`}
+            className={`flex flex-wrap justify-center items-center max-w-5xl mx-auto gap-x-4 border border-gray-300 p-4 rounded-lg  bg-gray-200/20 ${historia.estilos.estiloContainer}`}
           >
             <div className={`lg:w-xl text-center lg:${historia.estilos.estiloTexto} flex flex-col space-y-4 pt-7 px-3.5 lg:px-0  lg:pt-0`}>
               <span className=" text-gray-400   ">{historia.periodo}</span>

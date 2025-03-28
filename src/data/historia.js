@@ -9,7 +9,7 @@ export const historias = [
           estiloContainer : "flex-row",
           estiloTexto : "text-start"
          },
-      imagenUrl :"../../src/assets/personasHablando.png",
+      imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/personasHablando_bkroli.webp",
       alt :"personas hablando"
     },
     {
@@ -22,7 +22,7 @@ export const historias = [
         estiloContainer : "flex-row-reverse",
         estiloTexto : "text-end"
        },
-      imagenUrl :"../../src/assets/personasCompra.png",
+      imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/personasCompra_da28uv.webp",
       alt :"Representación del Imperio Incaico"
     },
     {
@@ -35,8 +35,8 @@ export const historias = [
           estiloContainer : "flex-row",
           estiloTexto : "text-start"
          },
-      imagenUrl :"https://machupicchuviajesperu.com/wp-content/uploads/2024/06/Diseno-sin-titulo-5.jpg",
-      alt :"Representación del Imperio Incaico"
+      imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/librosQuechua_jqljos.webp",
+      alt :"imagen de dos libros"
     },
     {
       id: 4,
@@ -48,8 +48,8 @@ export const historias = [
           estiloContainer : "flex-row-reverse",
           estiloTexto : "text-end"
          },
-      imagenUrl :"https://machupicchuviajesperu.com/wp-content/uploads/2024/06/Diseno-sin-titulo-5.jpg",
-      alt :"Representación del Imperio Incaico"
+      imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/academiaQuechua_pikp5e.webp",
+      alt :"imagen de una academia en la sierra peruana "
     },
   ];
   

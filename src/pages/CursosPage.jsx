@@ -5,8 +5,7 @@ import { dificultades } from "../data/dificultades";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
 import { HeaderMain } from "../componets/Header/headerMain";
 import { TitleUI } from "../ui/titleUI";
-import Footer from "../componets/Footer/Footer";
-
+import {Footer} from "../componets/Footer/Footer";
 function CursoPage() {
   return (
     <>
@@ -31,7 +30,7 @@ function CursoPage() {
             })
         }
        </main>
-       <Footer/>
+     <Footer/>
     </>
   );
 }

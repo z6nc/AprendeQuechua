@@ -1,3 +1,4 @@
+import About from "../componets/About/About";
 import { Navbar } from "../componets/Header/Navbar/navbar";
 import { HeaderBgImg } from "../componets/Header/headerBgImg";
 import { HeaderPrImg } from "../componets/Header/headerPrImg";
@@ -5,8 +6,7 @@ import { HeaderMain } from "../componets/Header/headerMain";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
 import Frases from "../componets/Frases/Frases";
 import { PreguntasFaqs } from "../componets/Preguntas/preguntas";
-import Footer from "../componets/Footer/Footer";
-import About from "../componets/About/About";
+import BannerFooter from "../componets/Footer/BannerFooter";
 
 function Home() {
   return (
@@ -27,7 +27,7 @@ function Home() {
         <Frases />
         <PreguntasFaqs />
       </main>
-      <Footer />
+      <BannerFooter />
     </>
   );
 }
