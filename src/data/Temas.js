@@ -8,7 +8,7 @@ export const Temas =[
         descripcion: "En este tema aprenderás las vocales y los números en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgTema1_yrtz38.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgPersonaTema1_y1mkdj.webp",
-        url: "/vocales"
+        url: "/Leccion"
     },
     {
         id: "quechua-B2",
