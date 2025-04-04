@@ -1,5 +1,4 @@
 import { userScrollY } from "../hooks/useScrollY";
-import { HeaderPrImg } from "../componets/Header/headerPrImg";
 
 export function ImgBannerUI({children}) {
   const { elementRef, isVisible } = userScrollY();
@@ -14,6 +13,7 @@ export function ImgBannerUI({children}) {
         className={`${visibleAnimationY} md:w-xs lg:w-lg`}
         src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/llama3_ydjpzh.webp"
         alt="Una llama con lentes animada"
+        
       />
     </div>
   );
