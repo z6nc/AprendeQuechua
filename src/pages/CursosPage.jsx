@@ -1,7 +1,6 @@
 import { Navbar } from "../componets/Header/Navbar/navbar";
 import { HeaderBgImg } from "../componets/Header/headerBgImg";
 import { TemasLista } from "../componets/ListaCursos/TemasLista/TemasLista";
-import { dificultades } from "../data/dificultades";
 import { ImgBannerUI } from "../ui/ImgBannerUI";
 import { HeaderMain } from "../componets/Header/headerMain";
 import { TitleUI } from "../ui/titleUI";
@@ -22,13 +21,7 @@ function CursoPage() {
       </HeaderMain>
       
        <main className="min-h-screen">
-        {
-            dificultades.map((dificultad  ) => {
-              return(
-                <TemasLista key={dificultad.id}  objetoDicultad={dificultad}  />
-              )
-            })
-        }
+        <TemasLista />
        </main>
      <Footer/>
     </>
