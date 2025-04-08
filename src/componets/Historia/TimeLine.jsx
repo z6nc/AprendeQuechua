@@ -17,7 +17,7 @@ export function TimeLine() {
                 style={"text-orange-400 lg:text-4xl "}
               />
               <p className="text-gray-500">{historia.texto}</p>
-               <BtnUI texto={"Mira el vídeo"} textoTraducido={"videota qhaway"} url={"/"} style={"text-white mx-auto py-2 px-4"}  />
+               <BtnUI target={"_blank"} texto={"Mira el vídeo"} textoTraducido={"videota qhaway"} url={historia.url} style={"text-white mx-auto py-2 px-4"}  />
             </div>
 
             <div className=" w-80 lg:w-80 h-auto  overflow-hidden">
