@@ -1,6 +1,7 @@
-export function BtnUI({ texto, textoTraducido, url, style }) {
+export function BtnUI({ texto, textoTraducido, url, style ,target }) {
   return (
     <a
+      target={target}
       href={url}
       className={`group inline-flex bg-orange-400 ${style}  font-black text-white tracking-wide shadow-4xl rounded-lg cursor-pointer `}
     >
