@@ -10,7 +10,8 @@ export const historias = [
           estiloTexto : "text-start"
          },
       imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/personasHablando_bkroli.webp",
-      alt :"personas hablando"
+      alt :"personas hablando",
+      url :"https://www.youtube.com/watch?v=ZHb1Bl0_IRM&t=49s",
     },
     {
       id: 2,
@@ -23,7 +24,9 @@ export const historias = [
         estiloTexto : "text-end"
        },
       imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/personasCompra_da28uv.webp",
-      alt :"Representación del Imperio Incaico"
+      alt :"Representación del Imperio Incaico",
+      url :"https://www.youtube.com/watch?v=TKkvAIwwnl8",
+
     },
     {
       id: 3,
@@ -36,7 +39,9 @@ export const historias = [
           estiloTexto : "text-start"
          },
       imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/librosQuechua_jqljos.webp",
-      alt :"imagen de dos libros"
+      alt :"imagen de dos libros",
+      url :"https://www.youtube.com/watch?v=TKkvAIwwnl8",
+
     },
     {
       id: 4,
@@ -49,7 +54,9 @@ export const historias = [
           estiloTexto : "text-end"
          },
       imagenUrl :"https://res.cloudinary.com/dleem7osr/image/upload/v1743177535/academiaQuechua_pikp5e.webp",
-      alt :"imagen de una academia en la sierra peruana "
+      alt :"imagen de una academia en la sierra peruana ",
+      url :"https://www.youtube.com/watch?v=TKkvAIwwnl8",
+
     },
   ];
   
