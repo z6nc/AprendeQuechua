@@ -53,6 +53,7 @@
 .customNavbarBtn {
   @apply hover:border-b  border-white;
 }
+
 .puntero-triangulo::before {
   content: " ";
   position: absolute;
