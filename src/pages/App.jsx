@@ -12,6 +12,7 @@ function App() {
       <Route path="/HistoriaLenguaje" element={<HistoriaLenguaje />} />
       <Route path="/Leccion" element={<Leccion />} />
 
+
     </Routes>
   </Router>
  
