@@ -2,7 +2,8 @@ import { HamburIcon, CloseIcon } from "../../../ui/iconNavbar";
 import { useState } from "react";
 import { navbarLinks } from "../../../data/navbarLinks";
 import { NavResponsive } from "./navbarResponsive";
-
+import { TraductorView } from "../../Traductor/TraductorView";
+import { GithubUI } from "../../../ui/githubUI";
 
 export function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -38,6 +39,8 @@ export function Navbar() {
               )
             })
            }
+           <TraductorView/>
+           <GithubUI/>
         </ul>
 
         {showMenu && <NavResponsive/>}
