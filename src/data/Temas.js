@@ -9,7 +9,7 @@ export const Temas =[
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgTema1_yrtz38.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgPersonaTema1_y1mkdj.webp",
         disponible : true ,
-        url: "/Leccion"
+        url: "/Leccion?id=LeccionUno"
     },
     {
         id: "quechua-B2",
@@ -19,7 +19,8 @@ export const Temas =[
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
         disponible : false ,
-        url: "/saludos"
+        url: "/Leccion?id=LeccionDos"
+
     },
     {
        id: "quechua-B3",
@@ -28,8 +29,9 @@ export const Temas =[
         descripcion: "En este tema aprenderás los miembros de la familia en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741709095/ImgTema3_lr9xzn.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741709095/ImgPersonaTema3_ivqeb4.webp",
-        disponible : false ,
-        url: "/familia"
+        disponible : true ,
+        url: "/Leccion?id=LeccionTres"
+
     },
      {
         id: "quechua-B4",
@@ -39,7 +41,8 @@ export const Temas =[
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgTema4_ngwo16.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgPersonaTema4_bk7or3.webp",
         disponible : false ,
-        url: "/colores"
+        url: "/Leccion?id=uno"
+
      },
     
 
