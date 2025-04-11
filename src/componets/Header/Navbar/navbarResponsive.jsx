@@ -1,4 +1,6 @@
 import { navbarLinks } from "../../../data/navbarLinks";
+import { TraductorView } from "../../Traductor/TraductorView";
+import { GithubUI } from "../../../ui/githubUI";
 
 export function NavResponsive() {
   return (
@@ -11,6 +13,8 @@ export function NavResponsive() {
             </li>
           );
         })}
+        <TraductorView/>
+        <GithubUI/>
       </ul>
     </div>
   );
