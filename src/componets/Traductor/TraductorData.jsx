@@ -1,8 +1,12 @@
 import { useFetch } from "../../hooks/useFetch";
-import { CopyUI } from "../../ui/copyUI";
+import { BtnTraductorCopy } from "./btnTraductorCopy";
 export function TraductorData() {
   const { getData, data, cargando, texto, error, setTexto } = useFetch();
 
+  const estiloCargandoButtom = cargando
+    ? "cursor-not-allowed bg-orange-400/80"
+    : "cursor-pointer bg-orange-400";
+    
   return (
     <div className="flex flex-col gap-y-4 m-9 text-start">
       <p className="text-gray-500">Español</p>
@@ -15,8 +19,9 @@ export function TraductorData() {
       ></textarea>
 
       <button
-        className="cursor-pointer bg-orange-400 text-white rounded-lg  font-bold  my-4 py-4 scale-95 hover:scale-100"
+        className={`${estiloCargandoButtom}  text-white rounded-lg  font-bold  my-4 py-4 scale-95 hover:scale-100`}
         onClick={getData}
+        disabled={cargando ? true : false}
       >
         {cargando ? "traduciendo..." : "Traducir"}
       </button>
@@ -28,9 +33,7 @@ export function TraductorData() {
           placeholder="Tu texto traducido"
           readOnly
         />
-        <button className="absolute right-0 p-2">
-          <CopyUI />
-        </button>
+        <BtnTraductorCopy dataCopy={data} />
       </div>
     </div>
   );
