@@ -29,8 +29,9 @@ export function ListaLeccion() {
                 return (
                   <div key={idx} className="grid place-content-center  text-center bg-gray-300/15 py-7 shadow-btn rounded-lg hover:-translate-y-2">
                     <h4 className="text-4xl font-Titulo font-bold">{p.letra}</h4>
-                    <span className="text-gray-400 text-lg py-2">{p.traducido}</span>
-                    <AudioButton />
+                    <span className="text-gray-400 text-lg pt-2">{p.traducido}</span>
+                    <span className="text-gray-400 text-sm pb-2 ">{p.ejemplo}</span>
+                    <AudioButton audio={p.sonido}/>
                   </div>
                 );
               })}
