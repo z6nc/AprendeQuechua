@@ -3,9 +3,9 @@ export const Temas =[
     // en un futuro , migrar a un base de datos no sql 
     {
         id: "quechua-B1",
-        tema: "Primeros Pasos en Quechua: Vocales y Números",
+        tema: "Primeros Pasos en Quechua: Vocales y Consonantes",
         dificultad: "basico",
-        descripcion: "En este tema aprenderás las vocales y los números en quechua",
+        descripcion: "En este tema aprenderás las vocales y los consonantes en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgTema1_yrtz38.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgPersonaTema1_y1mkdj.webp",
         disponible : true ,
@@ -13,12 +13,12 @@ export const Temas =[
     },
     {
         id: "quechua-B2",
-        tema: "Primeros Pasos en Quechua: Saludos y Presentaciones ",
+        tema: "Primeros Pasos en Quechua: Numeros  ",
         dificultad: "basico",
-        descripcion: "En este tema aprenderás a saludar y presentarte en quechua",
+        descripcion: "En este tema aprenderás los 100 numeros en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
-        disponible : false ,
+        disponible : true ,
         url: "/Leccion?id=LeccionDos"
 
     },
@@ -44,6 +44,16 @@ export const Temas =[
         url: "/Leccion?id=uno"
 
      },
-    
+     {
+        id: "quechua-B5",
+        tema: "Primeros Pasos en Quechua: Saludos y Presentaciones ",
+        dificultad: "basico",
+        descripcion: "En este tema aprenderás a saludar y presentarte en quechua",
+        imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
+        imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
+        disponible : true ,
+        url: "/Leccion?id=LeccionDos"
+
+    },
 
 ]

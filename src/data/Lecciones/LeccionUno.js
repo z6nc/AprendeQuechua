@@ -1,158 +1,216 @@
 export const LeccionUno = [
     {
-        id:"Vocales",
-        titulo : "Vocales - Vocalkuna",
-        palabra : [
+        id: "Vocales-escritas",
+        titulo: "Vocales - Escritas",
+        palabra: [
             {
-                letra : "A",
-                traducido :"a",
-                sonido :"",
+                letra: "A",
+                traducido: "a",
+                ejemplo: "jaku",
+                sonido: "",
             },
-       
+
             {
-                letra : "I",
-                traducido :"i",
-                sonido :"",
+                letra: "I",
+                traducido: "i",
+                ejemplo: "michi",
+                sonido: "",
             },
-       
+
             {
-                letra : "U",
-                traducido :"u",
-                sonido :"",
+                letra: "U",
+                traducido: "u",
+                ejemplo: "michi",
+                sonido: "",
             },
         ]
-   
+
     },
     {
-        id:"Consonantes",
-         titulo :"Consonantes",
-         palabra: [
-                {
-                letra: "Ch",
-                traducido: " [t͡ʃ]",
+        id: "Vocales-pronunciacion",
+        titulo: "Vocales - Pronunciadas",
+        palabra: [
+            {
+                letra: "O",
+                traducido: "u-Q-u",
+                ejemplo: "Suqta",
+                sonido: "",
+            },
+
+            {
+                letra: "E",
+                traducido: "i-Q-i",
+                ejemplo: "Suqta",
+                sonido: "",
+            },
+
+        ]
+
+    },
+    {
+        id: "Consonantes-oclusivas",
+        titulo: "Consonantes - Oclusivas",
+        palabra: [
+            {
+                letra: "<p>",
+                traducido: "Pata",
+                ejemplo: "Anden",
                 sonido: "Como 'ch' en 'chico'"
-                },
-                {
-                letra: "H",
-                traducido: " [h]",
+            },
+            {
+                letra: "<ph>",
+                traducido: "Phata",
+                ejemplo: "Rajado",
                 sonido: "Como 'h' en 'hola'"
-                },
-                {
-                letra: "K",
-                traducido: " [k]",
+            },
+            {
+                letra: "<'p>",
+                traducido: " P'atay",
+                ejemplo: "Morder",
                 sonido: "Como 'k' en 'kilo'"
-                },
-                {
-                letra: "L",
-                traducido: " [l]",
+            },
+            {
+                letra: "<t>",
+                traducido: " Tanta",
+                ejemplo: "Reunion",
                 sonido: "Como 'l' en 'luz'"
-                },
-                {
-                letra: "M",
-                traducido: " [m]",
+            },
+            {
+                letra: "<th>",
+                traducido: "Thanta",
+                ejemplo: "Usado",
                 sonido: "Como 'm' en 'mamá'"
-                },
-                {
-                letra: "N",
-                traducido: " [n]",
+            },
+            {
+                letra: "<t'>",
+                traducido: "T'anta",
+                ejemplo: "Pan",
                 sonido: "Como 'n' en 'nene'"
-                },
-                {
-                letra: "Ñ",
-                traducido: " [ɲ]",
+            },
+            {
+                letra: "<ch>",
+                traducido: "Chaki",
+                ejemplo: "Pies",
                 sonido: "Como 'ñ' en 'niño'"
-                },
-                {
-                letra: "P",
-                traducido: " [p]",
+            },
+            {
+                letra: "<ch'>",
+                traducido: "Ch'aki",
+                ejemplo: "Seco",
                 sonido: "Como 'p' en 'papa'"
-                },
-                {
-                letra: "Q",
-                traducido: " [q]",
+            },
+            {
+                letra: "<chh>",
+                traducido: "Chhuru",
+                ejemplo: "Pico de ave",
                 sonido: "Como una 'k' producida en la parte posterior del aparato fonador"
-                },
-                {
-                letra: "R",
-                traducido: " [ɾ]",
+            },
+            {
+                letra: "<k>",
+                traducido: "Kancha",
+                ejemplo: "Canchon",
                 sonido: "Vibrante simple, similar a 'r' en 'cara'"
-                },
-                {
-                letra: "S",
-                traducido: " [s]",
+            },
+            {
+                letra: "<kh>",
+                traducido: "Khamuy",
+                ejemplo: "Masticar",
                 sonido: "Como 's' en 'sol'"
-                },
-                {
-                letra: "T",
-                traducido: " [t]",
+            },
+            {
+                letra: "<k'>",
+                traducido: "Kanchay",
+                ejemplo: "Brillo",
                 sonido: "Como 't' en 'taza'"
-                },
-                {
-                letra: "W",
-                traducido: " [w]",
+            },
+            {
+                letra: "<q>",
+                traducido: "Quilla",
+                ejemplo: "Ocioso",
                 sonido: "Como 'w' en inglés (usado en préstamos o nombres propios)"
-                },
-                {
-                letra: "Y",
-                traducido: " [j]",
+            },
+            {
+                letra: "<qh>",
+                traducido: "Qhipa",
+                ejemplo: "Atras",
                 sonido: "Como 'y' en 'yeso' o como semiconsonante"
-                }
-            ]
+            },
+            {
+                letra: "<q'>",
+                traducido: "Q'illu",
+                ejemplo: "Amarillo",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
+            },
+
+
+        ]
     },
     {
-        id:"Numero",
-        titulo :"Numeros - yupaykuna",
-        palabra :[
+        id: "Consonantes-complementario",
+        titulo: "Consonantes - Complementarios",
+        palabra: [
             {
-                letra : "1",
-                traducido :"huk",
-                sonido :"",
+                letra: "<s>",
+                traducido: "Simi",
+                ejemplo: "Idioma / Boca",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra : "2",
-                traducido :"iskay",
-                sonido :"",
+                letra: "<h>",
+                traducido: "Hatun",
+                ejemplo: "Grande",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra : "3",
-                traducido :"kimsa",
-                sonido :"",
+                letra: "<l>",
+                traducido: "Lawa",
+                ejemplo: "Mazamorra",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra : "4",
-                traducido :"tawa",
-                sonido :"",
+                letra: "<ll>",
+                traducido: "Llama",
+                ejemplo: "Camelido",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra : "5",
-                traducido :"phisqa",
-                sonido :"",
+                letra: "<r>",
+                traducido: "Rimay",
+                ejemplo: "Hablar",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra : "6",
-                traducido :"suqta",
-                sonido :"",
+                letra: "<w>",
+                traducido: "Wayna",
+                ejemplo: "Joven",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
             },
             {
-                letra: "7",
-                traducido: "qanchis",
-                sonido: ""
-              },
+                letra: "<y>",
+                traducido: "Yapa",
+                ejemplo: "Agregado",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
+            },
+            {
+                letra: "<m>",
+                traducido: "Qam",
+                ejemplo: "Tú",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
+            },
+             {
+                letra: "<n>",
+                traducido: "Nina",
+                ejemplo: "Fuego",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
+            },
               {
-                letra: "8",
-                traducido: "pusaq",
-                sonido: ""
-              },
-              {
-                letra: "9",
-                traducido: "isqun",
-                sonido: ""
-              },
-              {
-                letra: "10",
-                traducido: "chunka",
-                sonido: ""
-              }
+                letra: "<ñ>",
+                traducido: "Wiñay",
+                ejemplo: "Crecer",
+                sonido: "Como 'y' en 'yeso' o como semiconsonante"
+            },
+
         ]
     }
+
 ]
