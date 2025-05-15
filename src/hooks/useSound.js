@@ -13,7 +13,8 @@ export const useSound = () => {
 
   const stopSound = () => {
     if (audioRef.current) {
-      audioRef.current.pause();
+       audioRef.current.pause();            // Detiene la reproducción
+     audioRef.current.currentTime = 0; 
       setIsPlaying(false); 
     }
   };
