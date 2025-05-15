@@ -17,7 +17,7 @@ export const IconSound = () => {
   );
 };
 
-export const IconPause = () => {
+export const IconStop = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ export const IconPause = () => {
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M15.75 5.25v13.5m-7.5-13.5v13.5"
+        d="M5.25 7.5A2.25 2.25 0 0 1 7.5 5.25h9a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1-2.25 2.25h-9a2.25 2.25 0 0 1-2.25-2.25v-9Z"
       />
     </svg>
   );
