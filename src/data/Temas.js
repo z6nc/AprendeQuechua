@@ -6,8 +6,8 @@ export const Temas =[
         tema: "Primeros Pasos en Quechua: Vocales y Consonantes",
         dificultad: "basico",
         descripcion: "En este tema aprenderás las vocales y los consonantes en quechua",
-        imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgTema1_yrtz38.webp",
-        imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/ImgPersonaTema1_y1mkdj.webp",
+        imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1747678743/fondoVocal_q6fjmp.webp",
+        imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1747678743/vocalSolo_rjobrn.webp",
         disponible : true ,
         url: "/Leccion?id=LeccionUno"
     },
@@ -16,8 +16,8 @@ export const Temas =[
         tema: "Primeros Pasos en Quechua: Numeros  ",
         dificultad: "basico",
         descripcion: "En este tema aprenderás los 100 numeros en quechua",
-        imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
-        imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
+        imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1747678753/Imagen_Numeros_yw6443.webp",
+        imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1747678753/numerosSolo_cc9sbt.webp",
         disponible : true ,
         url: "/Leccion?id=LeccionDos"
 
@@ -40,8 +40,8 @@ export const Temas =[
         descripcion: "En este tema aprenderás los colores primarios , secundarios y terciarios en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgTema4_ngwo16.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgPersonaTema4_bk7or3.webp",
-        disponible : false ,
-        url: "/Leccion?id=uno"
+        disponible : true ,
+        url: "/Leccion?id=LeccionCuatro"
 
      },
      {
@@ -52,7 +52,7 @@ export const Temas =[
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
         disponible : true ,
-        url: "/Leccion?id=LeccionDos"
+        url: "/Leccion?id=LeccionCinco"
 
     },
 
