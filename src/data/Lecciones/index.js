@@ -1,3 +1,5 @@
 export  *  from "./LeccionUno"
 export  *  from "./LeccionDos"
 export  *  from "./LeccionTres"
+export * from "./LeccionCuatro"
+export * from "./LeccionCinco"
