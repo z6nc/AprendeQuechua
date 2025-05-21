@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+
 export const useFetch = () => {
   const [data, setData] = useState(null);
   const [texto, setTexto] = useState("");
@@ -21,27 +22,31 @@ export const useFetch = () => {
         setError("Demasiados caracteres (máx 50)");
         return;
       }
-
-      const query = encodeURIComponent(trimmedText);
-
-      const response = await fetch('/src/data/api/translate.js', {
+      
+         
+      const response = await fetch('/api/translate', {  // ✅ Cambiado aquí
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: query })
+        body: JSON.stringify({ prompt: trimmedText }) // mejor que usar encodeURIComponent
       });
-      const datos = await response.json();
-      setData(datos.translation);
 
+      const datos = await response.json();
+      setData(datos.translation); // Asegúrate de que "translation" existe en la respuesta
     } catch (error) {
-      setError(`No se puede traducir en este momento`);
+      setError("No se puede traducir en este momento");
     } finally {
       setCargando(false);
     }
-
   };
 
   return {
-    getData, data, cargando, texto, error, setTexto
-  }
+    getData,
+    data,
+    cargando,
+    texto,
+    error,
+    setTexto
+  };
+};
 
-}
+
