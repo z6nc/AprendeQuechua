@@ -24,7 +24,7 @@ function BannerFooter() {
           texto={"Comenzar a Aprender"}
           textoTraducido={"yachayta qallariy"}
           style={"mx-auto py-2 px-3  lg:py-3 lg:px-4 "}
-          url ={"/Leccion"}
+          url ={"/CursoPage"}
         />
       </div>
 
