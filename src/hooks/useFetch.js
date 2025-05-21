@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import { useState } from "react"
 export const useFetch = () => {
   const [data, setData] = useState(null);
   const [texto, setTexto] = useState("");
@@ -23,34 +22,30 @@ export const useFetch = () => {
         return;
       }
 
-
-
       const response = await fetch('/api/translate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: trimmedText }) // 👈 key debe llamarse "text"
+        body: JSON.stringify({ trimmedText })
       });
 
 
-      const datos = await response.json();
-      setData(datos.translation); // Asegúrate de que "translation" existe en la respuesta
-    } catch (error) {
-      setError("No se puede traducir en este momento");
-      console.error(error)
+      if (!response.ok) {
+        throw new Error("Respuesta inválida del servidor");
+      }
+      const data = await response.json();
+      setData(data.translation);
+
+    } catch (e) {
+      setError(`No se puede traducir en este momento: ${e.message}`);
+      throw error;
     } finally {
       setCargando(false);
     }
+
   };
 
   return {
-    getData,
-    data,
-    cargando,
-    texto,
-    error,
-    setTexto
-  };
-};
+    getData, data, cargando, texto, error, setTexto
+  }
 
-
-
+}
