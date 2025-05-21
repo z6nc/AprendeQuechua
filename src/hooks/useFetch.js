@@ -24,7 +24,7 @@ export const useFetch = () => {
 
       const query = encodeURIComponent(trimmedText);
 
-      const response = await fetch('/api/translate', {
+      const response = await fetch('/src/data/api/translate.js', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prompt: query })
