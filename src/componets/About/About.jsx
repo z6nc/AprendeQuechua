@@ -1,4 +1,4 @@
-import { InfoAbout } from "./InfoAbout";
+import {InfoAbout } from "./infoAbout";
 import {abouts} from "../../data/about"
 import {DivisiorOla} from "../../ui/DivisorOla"
 // datos preguntas 
