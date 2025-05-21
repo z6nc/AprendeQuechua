@@ -16,7 +16,7 @@ function CursoPage() {
           style={"brightness-75"}
         />
         <ImgBannerUI>
-        <TitleUI title={"Comenzemos  "}/>
+        <TitleUI title={"Comenzemos"}/>
         </ImgBannerUI>
       </HeaderMain>
       
