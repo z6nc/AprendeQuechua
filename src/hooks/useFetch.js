@@ -24,7 +24,7 @@ export const useFetch = ()=>{
 
         const query = encodeURIComponent(trimmedText);
 
-        const url = `https://magicloops.dev/api/loop/241c24a5-da48-4dbb-b0fe-1248dc2d757f/run?text=${query}`;
+        const url = `https://api/text=${query}`;
         const response = await fetch(url);
           if (!response.ok) {
             setError("No se pudo hacer la petición");
@@ -33,8 +33,8 @@ export const useFetch = ()=>{
         const datos = await response.json();
         setData(datos.translation);
      
-        } catch (e) {
-          setError(`No se puede traducir en este momento: ${e.message}`);
+        } catch (error) {
+          setError(`No se puede traducir en este momento`);
         } finally {
           setCargando(false);
         }
