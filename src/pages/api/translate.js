@@ -5,16 +5,16 @@ export default async function handler(req, res) {
     }
 
     const apiKey = process.env.MAGIC_LOOP_KEY;
-    const { prompt } = req.body;
+    const { text } = req.body;
 
-    if (!prompt) {
+    if (!text) {
       return res.status(400).json({ error: 'Prompt requerido' });
     }
 
     const response = await fetch(`https://magicloops.dev/api/loop/${apiKey}/run`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text: prompt })  // 👈 Aquí el formato correcto
+      body: JSON.stringify({ "text": text })  // 👈 Aquí el formato correcto
     });
 
     const data = await response.json();

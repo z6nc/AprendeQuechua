@@ -27,13 +27,14 @@ export const useFetch = () => {
       const response = await fetch('/api/translate', {  // ✅ Cambiado aquí
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: trimmedText }) // mejor que usar encodeURIComponent
+        body: JSON.stringify({ "text": trimmedText }) // mejor que usar encodeURIComponent
       });
 
       const datos = await response.json();
       setData(datos.translation); // Asegúrate de que "translation" existe en la respuesta
     } catch (error) {
       setError("No se puede traducir en este momento");
+      console.error(error)
     } finally {
       setCargando(false);
     }
@@ -48,5 +49,6 @@ export const useFetch = () => {
     setTexto
   };
 };
+
 
 
