@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const response = await fetch(`https://magicloops.dev/api/loop/${apiKey}/run`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ "text": text })  // 👈 Aquí el formato correcto
+      body: JSON.stringify({ text })  // 👈 Aquí el formato correcto
     });
 
     const data = await response.json();

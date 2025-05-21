@@ -22,13 +22,15 @@ export const useFetch = () => {
         setError("Demasiados caracteres (máx 50)");
         return;
       }
-      
-         
-      const response = await fetch('/api/translate', {  // ✅ Cambiado aquí
+
+
+
+      const response = await fetch('/api/translate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ "text": trimmedText }) // mejor que usar encodeURIComponent
+        body: JSON.stringify({ text: trimmedText }) // 👈 key debe llamarse "text"
       });
+
 
       const datos = await response.json();
       setData(datos.translation); // Asegúrate de que "translation" existe en la respuesta
