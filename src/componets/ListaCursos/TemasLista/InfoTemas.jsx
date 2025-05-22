@@ -1,4 +1,4 @@
-import { BtnUI } from "../../../ui/btnUI";
+import { LinkIU } from "../../../ui/linkUI";
 import { ModalView } from "../../Modal/ModalView";
 
 export function InfoTemas({ Tema }) {
@@ -34,7 +34,7 @@ export function InfoTemas({ Tema }) {
               </p>
             </div>
             {t.disponible ? (
-              <BtnUI
+              <LinkIU
                 url={t.url}
                 style=" text-sm py-2 px-4  "
                 texto={"Aprender Ahora"}
