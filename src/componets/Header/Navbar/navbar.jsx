@@ -1,5 +1,6 @@
-import { HamburIcon, CloseIcon } from "../../../ui/iconNavbar";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { HamburIcon, CloseIcon } from "../../../ui/iconNavbar";
 import { navbarLinks } from "../../../data/navbarLinks";
 import { NavResponsive } from "./navbarResponsive";
 import { TraductorView } from "../../Traductor/TraductorView";
@@ -24,26 +25,28 @@ export function Navbar() {
             className="border transition-all ease-in duration-100 "
             onClick={handleClik}
             aria-label={showMenu ? "Cerrar menú" : "Abrir menú"}
-          >
+            >
             {showMenu ? <CloseIcon /> : <HamburIcon />}
           </button>
         </div>
 
         <ul className="hidden  lg:inline-flex gap-x-7  items-center ">
            {
-            navbarLinks.map((item)  => {
-              return(
-                <li key={item.id} className={item.class}>
-                  <a href={item.link}>{item.item}</a>
+             navbarLinks.map((item)  => {
+               return(
+                 <li key={item.id} className={item.class}>
+                  <Link to={item.link}>{item.item}</Link>
                 </li>
               )
             })
-           }
-           <TraductorView/>
+          }
+            <TraductorView/>
            <GithubUI/>
         </ul>
 
-        {showMenu && <NavResponsive/>}
+        {showMenu && 
+        <NavResponsive/>
+      }
       </nav>
     </>
   );
