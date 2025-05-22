@@ -10,8 +10,6 @@ const lecciones = {
   "LeccionTres": LeccionTres,
   "LeccionCuatro": LeccionCuatro,
   "LeccionCinco": LeccionCinco,
-
-
 };
 
 export function ListaLeccion() {
