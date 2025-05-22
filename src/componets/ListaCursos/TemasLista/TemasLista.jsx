@@ -1,8 +1,6 @@
 import { Temas } from "../../../data/Temas";
 import { SubTitle } from "../../../ui/SubtitleUI";
 import { InfoTemas } from "./InfoTemas";
-import TemasProximos from "../../404Error/TemasProximos";
-import MiniBanner from "../../../ui/MiniBanner";
 
 export function TemasLista() {
   return (

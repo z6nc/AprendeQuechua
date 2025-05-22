@@ -37,7 +37,7 @@ export const Temas =[
         id: "quechua-B4",
         tema: "Primeros Pasos en Quechua: los colores primarios  ",
         dificultad: "basico",
-        descripcion: "En este tema aprenderás los colores primarios , secundarios y terciarios en quechua",
+        descripcion: "En este tema aprenderás los colores  en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgTema4_ngwo16.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741714125/ImgPersonaTema4_bk7or3.webp",
         disponible : true ,
@@ -51,7 +51,7 @@ export const Temas =[
         descripcion: "En este tema aprenderás a saludar y presentarte en quechua",
         imgBackground: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgTema2_b6ekv4.webp",
         imgPersona: "https://res.cloudinary.com/dleem7osr/image/upload/v1741708148/imgPersonaTema2_qlg3pd.webp",
-        disponible : true ,
+        disponible : false ,
         url: "/Leccion?id=LeccionCinco"
 
     },
