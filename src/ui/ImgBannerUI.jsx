@@ -10,7 +10,7 @@ export function ImgBannerUI({children}) {
     >
        {children}
       <img
-        className={`${visibleAnimationY} md:w-xs lg:w-lg`}
+        className={`${visibleAnimationY} md:w-xs lg:w-[400px] 2xl:w-lg`}
         src="https://res.cloudinary.com/dleem7osr/image/upload/v1742836458/llama3_ydjpzh.webp"
         alt="Una llama con lentes animada"
         
