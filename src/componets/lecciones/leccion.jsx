@@ -15,7 +15,7 @@ const lecciones = {
 export function ListaLeccion() {
   const [searchParams] = useSearchParams();
   const id = searchParams.get("id"); 
-  const ComponenteLeccion = lecciones[id]; 
+  const ComponenteLeccion = lecciones[id] ; 
 
   return (
     <section className="flex flex-col gap-y-9 mx-5 lg:mx-0">
